@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFactory - Cadastro de Máquinas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU LATERAL -->
+
+    <div class="sidebar">
+
+        <h2>🌿 EcoFactory</h2>
+
+        <ul>
+            <li><a href="dashboard.html"> Dashboard</a></li>
+            <li><a href="cadastro-maquinas.html"> Cadastro de Máquinas</a></li>
+            <li><a href="lista-maquinas.html"> Lista de Máquinas</a></li>
+            <li><a href="producao.html"> Produção</a></li>
+            <li><a href="sustentabilidade.html"> Sustentabilidade</a></li>
+            <li><a href="index.html"> Sair</a></li>
+            <li><a href="seguranca.html"> Segurança</a></li>
+        </ul>
+
+    </div>
+
+    <!-- CONTEÚDO -->
+
+    <div class="main">
+
+        <h1>Cadastro de Máquinas</h1>
+
+        <br>
+
+        <div class="form-container">
+
+            <form>
+
+                <div class="form-group">
+                    <label>Nome da Máquina</label>
+                    <input type="text" placeholder="Ex: CNC-01">
+                </div>
+
+                <div class="form-group">
+                    <label>Setor</label>
+
+                    <select>
+                        <option>Usinagem</option>
+                        <option>Montagem</option>
+                        <option>Soldagem</option>
+                        <option>Pintura</option>
+                        <option>Expedição</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo</label>
+
+                    <select>
+                        <option>CNC</option>
+                        <option>Prensa</option>
+                        <option>Esteira</option>
+                        <option>Robô Industrial</option>
+                        <option>Torno</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Status</label>
+
+                    <select>
+                        <option>Em Operação</option>
+                        <option>Em Manutenção</option>
+                        <option>Parada</option>
+                        <option>Desativada</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Consumo Médio (kWh)</label>
+                    <input type="number" placeholder="50">
+                </div>
+
+                <div class="form-group">
+                    <label>Temperatura Atual (°C)</label>
+                    <input type="number" placeholder="40">
+                </div>
+
+                <button class="btn" type="submit">
+                    Salvar Máquina
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

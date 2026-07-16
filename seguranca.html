@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFactory - Segurança do Trabalho</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <h2>🌿 EcoFactory</h2>
+
+        <ul>
+            <li><a href="dashboard.html">🏠 Dashboard</a></li>
+            <li><a href="cadastro-maquinas.html">⚙ Cadastro de Máquinas</a></li>
+            <li><a href="lista-maquinas.html">📋 Lista de Máquinas</a></li>
+            <li><a href="producao.html">🏭 Produção</a></li>
+            <li><a href="sustentabilidade.html">♻ Sustentabilidade</a></li>
+            <li><a href="seguranca.html">🦺 Segurança</a></li>
+            <li><a href="index.html">🚪 Sair</a></li>
+        </ul>
+
+    </div>
+
+    <div class="main">
+
+        <h1>Segurança do Trabalho</h1>
+
+        <br>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Ocorrências</h3>
+                <p>03</p>
+            </div>
+
+            <div class="card">
+                <h3>Dias sem acidentes</h3>
+                <p>48</p>
+            </div>
+
+            <div class="card">
+                <h3>Inspeções</h3>
+                <p>12</p>
+            </div>
+
+            <div class="card">
+                <h3>EPIs Entregues</h3>
+                <p>96</p>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="form-container">
+
+            <h2>Registrar Ocorrência</h2>
+
+            <br>
+
+            <form>
+
+                <div class="form-group">
+                    <label>Funcionário</label>
+                    <input type="text" placeholder="Nome do funcionário">
+                </div>
+
+                <div class="form-group">
+                    <label>Setor</label>
+                    <input type="text" placeholder="Ex: Produção">
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo de Ocorrência</label>
+
+                    <select>
+                        <option>Acidente</option>
+                        <option>Quase acidente</option>
+                        <option>Risco identificado</option>
+                        <option>Inspeção</option>
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Descrição</label>
+                    <input type="text" placeholder="Descreva a ocorrência">
+                </div>
+
+                <div class="form-group">
+                    <label>Data</label>
+                    <input type="date">
+                </div>
+
+                <button class="btn">
+                    Registrar
+                </button>
+
+            </form>
+
+        </div>
+
+        <br><br>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Funcionário</th>
+                    <th>Setor</th>
+                    <th>Ocorrência</th>
+                    <th>Data</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>João Silva</td>
+                    <td>Produção</td>
+                    <td>Quase acidente</td>
+                    <td>15/07/2026</td>
+                </tr>
+
+                <tr>
+                    <td>Maria Souza</td>
+                    <td>Montagem</td>
+                    <td>Inspeção</td>
+                    <td>14/07/2026</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>

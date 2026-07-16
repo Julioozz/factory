@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EcoFactory | Máquinas</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+    <div class="logo">
+        🌿 <span>EcoFactory</span>
+    </div>
+
+
+    <ul>
+
+        <li>
+            <a href="dashboard.html">
+                🏠 Dashboard
+            </a>
+        </li>
+
+
+        <li>
+            <a href="cadastro-maquinas.html">
+                ⚙ Cadastro
+            </a>
+        </li>
+
+
+        <li class="active">
+            <a href="lista-maquinas.html">
+                📋 Máquinas
+            </a>
+        </li>
+
+
+        <li>
+            <a href="producao.html">
+                🏭 Produção
+            </a>
+        </li>
+
+
+        <li>
+            <a href="sustentabilidade.html">
+                ♻ Sustentabilidade
+            </a>
+        </li>
+
+
+        <li>
+            <a href="index.html">
+                🚪 Sair
+            </a>
+        </li>
+
+
+    </ul>
+
+
+</aside>
+
+
+
+
+<!-- CONTEÚDO -->
+
+
+<main class="main">
+
+
+<header>
+
+    <div>
+
+        <h1>
+            Lista de Máquinas
+        </h1>
+
+        <p>
+            Monitoramento inteligente da fábrica
+        </p>
+
+    </div>
+
+
+    <div class="factory-status">
+
+        🟢 Sistema Online
+
+    </div>
+
+
+</header>
+
+
+
+
+<section class="panel">
+
+
+
+<div class="toolbar">
+
+
+<div class="search-box">
+
+🔎
+
+<input 
+type="text"
+placeholder="Pesquisar máquina..."
+>
+
+
+</div>
+
+
+
+<a href="cadastro-maquinas.html">
+
+<button class="btn">
+
+＋ Nova Máquina
+
+</button>
+
+</a>
+
+
+</div>
+
+
+
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+<th>Máquina</th>
+<th>Setor</th>
+<th>Tipo</th>
+<th>Status</th>
+<th>Energia</th>
+<th>Temperatura</th>
+<th>Ações</th>
+
+
+</tr>
+
+</thead>
+
+
+
+<tbody>
+
+
+
+<tr>
+
+<td>#001</td>
+
+<td>
+<div class="machine">
+⚙️
+<div>
+<strong>CNC-01</strong>
+<br>
+<span>Linha Premium</span>
+</div>
+</div>
+</td>
+
+
+<td>Usinagem</td>
+
+<td>CNC</td>
+
+
+<td>
+<span class="status online">
+Operando
+</span>
+</td>
+
+
+<td>
+45 kWh
+</td>
+
+
+<td>
+41°C
+</td>
+
+
+<td>
+
+
+<button class="edit-btn">
+✏ Editar
+</button>
+
+
+<button class="delete-btn">
+🗑 Excluir
+</button>
+
+
+</td>
+
+
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<td>#002</td>
+
+
+<td>
+
+<div class="machine">
+
+🔩
+
+<div>
+
+<strong>Prensa-02</strong>
+
+<br>
+
+<span>Linha Montagem</span>
+
+</div>
+
+</div>
+
+</td>
+
+
+<td>Montagem</td>
+
+
+<td>Prensa</td>
+
+
+<td>
+
+<span class="status warning">
+Manutenção
+</span>
+
+</td>
+
+
+<td>
+52 kWh
+</td>
+
+
+<td>
+36°C
+</td>
+
+
+<td>
+
+
+<button class="edit-btn">
+✏ Editar
+</button>
+
+
+<button class="delete-btn">
+🗑 Excluir
+</button>
+
+
+</td>
+
+
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+
+<td>#003</td>
+
+
+<td>
+
+
+<div class="machine">
+
+🚚
+
+<div>
+
+<strong>Esteira-05</strong>
+
+<br>
+
+<span>Expedição</span>
+
+</div>
+
+
+</div>
+
+
+</td>
+
+
+<td>Expedição</td>
+
+
+<td>Esteira</td>
+
+
+<td>
+
+<span class="status online">
+
+Operando
+
+</span>
+
+</td>
+
+
+<td>
+18 kWh
+</td>
+
+
+<td>
+31°C
+</td>
+
+
+<td>
+
+
+<button class="edit-btn">
+
+✏ Editar
+
+</button>
+
+
+<button class="delete-btn">
+
+🗑 Excluir
+
+</button>
+
+
+</td>
+
+
+</tr>
+
+
+
+
+</tbody>
+
+
+</table>
+
+
+
+</section>
+
+
+
+</main>
+
+
+
+</body>
+
+</html>

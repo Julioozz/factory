@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFactory - Sustentabilidade</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU LATERAL -->
+
+    <div class="sidebar">
+
+        <h2>🌿 EcoFactory</h2>
+
+        <ul>
+            <li><a href="dashboard.html">🏠 Dashboard</a></li>
+            <li><a href="cadastro-maquinas.html">⚙ Cadastro de Máquinas</a></li>
+            <li><a href="lista-maquinas.html">📋 Lista de Máquinas</a></li>
+            <li><a href="producao.html">🏭 Produção</a></li>
+            <li><a href="sustentabilidade.html">♻ Sustentabilidade</a></li>
+            <li><a href="index.html">🚪 Sair</a></li>
+        </ul>
+
+    </div>
+
+    <!-- CONTEÚDO -->
+
+    <div class="main">
+
+        <h1>Painel de Sustentabilidade</h1>
+
+        <br>
+
+        <!-- CARDS -->
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Energia Consumida</h3>
+                <p>620 kWh</p>
+            </div>
+
+            <div class="card">
+                <h3>Água Consumida</h3>
+                <p>4.300 L</p>
+            </div>
+
+            <div class="card">
+                <h3>Reciclagem</h3>
+                <p>72%</p>
+            </div>
+
+            <div class="card">
+                <h3>CO₂ Reduzido</h3>
+                <p>18 kg</p>
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <div class="form-container">
+
+            <h2>Registrar Indicadores Ambientais</h2>
+
+            <br>
+
+            <form>
+
+                <div class="form-group">
+                    <label>Consumo de Energia (kWh)</label>
+                    <input type="number" placeholder="Ex: 500">
+                </div>
+
+                <div class="form-group">
+                    <label>Consumo de Água (Litros)</label>
+                    <input type="number" placeholder="Ex: 3500">
+                </div>
+
+                <div class="form-group">
+                    <label>Resíduos Gerados (kg)</label>
+                    <input type="number" placeholder="Ex: 180">
+                </div>
+
+                <div class="form-group">
+                    <label>Resíduos Reciclados (kg)</label>
+                    <input type="number" placeholder="Ex: 120">
+                </div>
+
+                <div class="form-group">
+                    <label>Data</label>
+                    <input type="date">
+                </div>
+
+                <button class="btn">
+                    Salvar Indicadores
+                </button>
+
+            </form>
+
+        </div>
+
+        <br><br>
+
+        <div class="chart">
+            📈 Gráfico de Consumo de Energia
+        </div>
+
+        <br>
+
+        <div class="chart">
+            ♻ Gráfico de Reciclagem
+        </div>
+
+        <br><br>
+
+        <h2>Histórico Ambiental</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Data</th>
+                    <th>Energia</th>
+                    <th>Água</th>
+                    <th>Resíduos</th>
+                    <th>Reciclado</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>15/07/2026</td>
+                    <td>620 kWh</td>
+                    <td>4.300 L</td>
+                    <td>180 kg</td>
+                    <td>130 kg</td>
+                </tr>
+
+                <tr>
+                    <td>14/07/2026</td>
+                    <td>590 kWh</td>
+                    <td>4.000 L</td>
+                    <td>170 kg</td>
+                    <td>120 kg</td>
+                </tr>
+
+                <tr>
+                    <td>13/07/2026</td>
+                    <td>570 kWh</td>
+                    <td>3.900 L</td>
+                    <td>165 kg</td>
+                    <td>118 kg</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
